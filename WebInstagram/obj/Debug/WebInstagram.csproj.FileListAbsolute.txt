@@ -1,0 +1,168 @@
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\WebInstagram.dll.config
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\WebInstagram.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\WebInstagram.pdb
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\Antlr3.Runtime.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\DotNetOpenAuth.AspNet.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\DotNetOpenAuth.Core.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\DotNetOpenAuth.OAuth.Consumer.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\DotNetOpenAuth.OAuth.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\DotNetOpenAuth.OpenId.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\EntityFramework.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\Microsoft.Data.Edm.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\Microsoft.Data.OData.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\Microsoft.Web.Infrastructure.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\Microsoft.Web.WebPages.OAuth.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\Newtonsoft.Json.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\System.Net.Http.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\System.Net.Http.WebRequest.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\System.Spatial.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\System.Web.Helpers.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\System.Web.Http.OData.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\System.Web.Mvc.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\System.Web.Optimization.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\System.Web.Razor.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\System.Web.WebPages.Deployment.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\System.Web.WebPages.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\System.Web.WebPages.Razor.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\WebGrease.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\WebMatrix.Data.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\WebMatrix.WebData.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\EntityFramework.xml
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\Newtonsoft.Json.xml
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\System.Net.Http.xml
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\System.Net.Http.WebRequest.xml
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\System.Web.Helpers.xml
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\System.Web.Mvc.xml
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\System.Web.Razor.xml
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\System.Web.WebPages.xml
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\System.Web.WebPages.Deployment.xml
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\System.Web.WebPages.Razor.xml
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\WebMatrix.Data.xml
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\Microsoft.Web.WebPages.OAuth.xml
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\WebMatrix.WebData.xml
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\DotNetOpenAuth.AspNet.xml
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\DotNetOpenAuth.Core.xml
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\DotNetOpenAuth.OAuth.Consumer.xml
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\DotNetOpenAuth.OAuth.xml
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\DotNetOpenAuth.OpenId.xml
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\System.Web.Http.OData.xml
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\Microsoft.Data.Edm.xml
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\Microsoft.Data.OData.xml
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\System.Spatial.xml
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\de\Microsoft.Data.Edm.resources.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\es\Microsoft.Data.Edm.resources.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\fr\Microsoft.Data.Edm.resources.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\it\Microsoft.Data.Edm.resources.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\ja\Microsoft.Data.Edm.resources.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\ko\Microsoft.Data.Edm.resources.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\ru\Microsoft.Data.Edm.resources.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\de\Microsoft.Data.OData.resources.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\es\Microsoft.Data.OData.resources.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\fr\Microsoft.Data.OData.resources.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\it\Microsoft.Data.OData.resources.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\ja\Microsoft.Data.OData.resources.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\ko\Microsoft.Data.OData.resources.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\ru\Microsoft.Data.OData.resources.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\de\System.Spatial.resources.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\es\System.Spatial.resources.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\fr\System.Spatial.resources.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\it\System.Spatial.resources.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\ja\System.Spatial.resources.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\ko\System.Spatial.resources.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\ru\System.Spatial.resources.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\zh-Hans\System.Spatial.resources.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\bin\zh-Hant\System.Spatial.resources.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\obj\Debug\WebInstagram.csprojResolveAssemblyReference.cache
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\obj\Debug\WebInstagram.dll
+c:\users\chael\documents\visual studio 2013\Projects\WebInstagram\WebInstagram\obj\Debug\WebInstagram.pdb
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\WebInstagram.dll.config
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\WebInstagram.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\WebInstagram.pdb
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\Antlr3.Runtime.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\DotNetOpenAuth.Core.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\EntityFramework.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\Microsoft.Data.Edm.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\Microsoft.Data.OData.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\Newtonsoft.Json.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\System.Net.Http.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\System.Net.Http.WebRequest.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\System.Spatial.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\System.Web.Helpers.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\System.Web.Http.OData.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\System.Web.Mvc.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\System.Web.Optimization.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\System.Web.Razor.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\System.Web.WebPages.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\System.Web.WebPages.Razor.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\WebGrease.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\WebMatrix.Data.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\WebMatrix.WebData.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\EntityFramework.xml
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\Newtonsoft.Json.xml
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\System.Net.Http.xml
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\System.Net.Http.WebRequest.xml
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\System.Web.Helpers.xml
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\System.Web.Mvc.xml
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\System.Web.Razor.xml
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\System.Web.WebPages.xml
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\System.Web.WebPages.Razor.xml
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\WebMatrix.Data.xml
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\WebMatrix.WebData.xml
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\DotNetOpenAuth.Core.xml
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\System.Web.Http.OData.xml
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\Microsoft.Data.Edm.xml
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\Microsoft.Data.OData.xml
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\System.Spatial.xml
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\de\System.Spatial.resources.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\es\System.Spatial.resources.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\fr\System.Spatial.resources.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\it\System.Spatial.resources.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\ja\System.Spatial.resources.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\ko\System.Spatial.resources.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\ru\System.Spatial.resources.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\obj\Debug\WebInstagram.csprojResolveAssemblyReference.cache
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\obj\Debug\WebInstagram.dll
+C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\obj\Debug\WebInstagram.pdb

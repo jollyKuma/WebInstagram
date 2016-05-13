@@ -1,0 +1,47 @@
+﻿@model WebInstagram.User
+
+@{
+    ViewBag.Title = "Index";
+}
+@if (Session["LogedUserFullname"] != null)
+{
+<header>
+    @Html.Partial("_MainNav")
+</header>
+
+    <div class="container" style="margin-top: 52px;">
+        <div class="center">
+            <div class="form_wrapper">
+                <form action="" enctype="multipart/form-data" method="post" class="form-inline">
+                    <div class="group">
+                        <input class="inputMaterial" name="postTitle" type="text" style="width:40%" required>
+                        <span class="highlight" style="width:40%"></span>
+                        <span class="bar" style="width:40%"></span>
+                        <label>Title</label>
+                    </div>
+                    <div class="group">
+                        <textarea class="inputMaterial" id="content" name="postContent" placeholder="Say Something..." style=" width:100%; " required></textarea>
+                        <span class="highlight " style="width:100%"></span>
+                        <span class="bar" style="width:100%"></span>
+                        <input type="file" name="Image" id="toProcess" class="file" style="margin-left:0px">
+                        <input type="submit" name="name" value="Post " class="btns pull-right" style="width: 70px;margin-right:10px" />
+                    </div>
+                </form>
+                </div>
+            </div>
+        </div>
+   
+            <h1 style="margin-top: 52px;">Welcome @Session["LogedUserFullname"].ToString()</h1>
+}
+
+<div onclick="refresh()">
+    @Html.ActionLink("Logout", "Logout")
+</div>
+<script type="text/javascript">
+    function refresh() {
+        console.log("refresh");
+        setTimeout(function () {
+            location.reload()
+        }, 100);
+    }
+</script>

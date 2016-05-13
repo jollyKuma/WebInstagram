@@ -1,0 +1,64 @@
+﻿@model WebInstagram.User
+
+@{
+    ViewBag.Title = "Login";
+    }
+    <div class="box">
+        <div id="header">
+            <div id="cont-lock"><i class="fa fa-key lock"></i></div>
+            <div id="bottom-head"><h1 id="logintoregister">Login</h1></div>
+        </div>
+        @using (Html.BeginForm())
+        {
+            @Html.ValidationSummary(true)
+
+            <fieldset>
+                @Html.AntiForgeryToken()
+                @if (ViewBag.Message != null)
+                {
+                    <div class="alert alert-danger">
+                        @ViewBag.Message
+                    </div>
+                }
+                <div class="group" style="font-size:11px; padding:0px;margin-bottom: 17px;">
+                    <input class="inputMaterial" name="Username" type="text" required>
+                    <div style="color:red"> @Html.ValidationMessageFor(model => model.Username)</div>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>Username</label>
+                </div>
+                <div class="group" style="font-size:11px; padding:0px;margin-bottom: 17px;">
+                    <input class="inputMaterial" name="Password" type="password" required>
+                    <div style="color:red"> @Html.ValidationMessageFor(model => model.Password)</div>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>Password</label>
+
+                   <!-- <div class="editor-label">
+                        @Html.LabelFor(model => model.Username)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.Username)
+                        @Html.ValidationMessageFor(model => model.Username)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.Password)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.Password)
+                        @Html.ValidationMessageFor(model => model.Password)-->
+                    </div>
+
+                    <p>
+                        <input type="submit" value="Login" class="btns" />
+                    </p>
+</fieldset>
+        }
+
+        <div id="footer-box"><p class="footer-text">Don't have an account?<a href="@(Url.Action("Register", "User"))"><span class="sign-up"> Sign Up</span></a></p></div>
+
+        </div>
+        @section Scripts {
+            @Scripts.Render("~/bundles/jqueryval")
+        }
