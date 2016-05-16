@@ -21,7 +21,7 @@ namespace WebInstagram.Controllers
         {
             if (ModelState.IsValid)
             {
-                using (MyDatabaseEntities dc = new MyDatabaseEntities())
+                using (MyDatabaseEntities1 dc = new MyDatabaseEntities1())
                 {
                     dc.Users.Add(U);
                     dc.SaveChanges();
@@ -47,7 +47,7 @@ namespace WebInstagram.Controllers
             //{
             Debug.WriteLine("---------------------My model state");
 
-            using (MyDatabaseEntities dc = new MyDatabaseEntities())
+            using (MyDatabaseEntities1 dc = new MyDatabaseEntities1())
             {
                 Debug.WriteLine("---------------------Inside database entities");
 

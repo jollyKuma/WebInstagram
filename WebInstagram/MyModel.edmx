@@ -12,9 +12,9 @@
           <Property Name="PostID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="UserID" Type="int" Nullable="false" />
           <Property Name="Title" Type="varchar" MaxLength="50" Nullable="false" />
-          <Property Name="Image_Path" Type="varchar" MaxLength="255" Nullable="false" />
-          <Property Name="Image_Type" Type="varchar" MaxLength="255" Nullable="false" />
-          <Property Name="Image_Name" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="ImageSize" Type="int" Nullable="false" />
+          <Property Name="FileName" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="ImageData" Type="varbinary(max)" Nullable="false" />
           <Property Name="Content" Type="varchar" MaxLength="255" Nullable="false" />
           <Property Name="Created" Type="varchar" MaxLength="255" Nullable="false" />
         </EntityType>
@@ -60,9 +60,9 @@
           <Property Name="PostID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="UserID" Type="Int32" Nullable="false" />
           <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Image_Path" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Image_Type" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Image_Name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ImageSize" Type="Int32" Nullable="false" />
+          <Property Name="FileName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ImageData" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
           <Property Name="Content" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="Created" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
           <NavigationProperty Name="User" Relationship="Self.FK1" FromRole="Posts" ToRole="Users" />
@@ -90,7 +90,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="MyDatabaseEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="MyDatabaseEntities1" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Posts" EntityType="Self.Post" />
           <EntitySet Name="Users" EntityType="Self.User" />
           <AssociationSet Name="FK1" Association="Self.FK1">
@@ -103,16 +103,16 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="MyDatabaseModelStoreContainer" CdmEntityContainer="MyDatabaseEntities">
+        <EntityContainerMapping StorageEntityContainer="MyDatabaseModelStoreContainer" CdmEntityContainer="MyDatabaseEntities1">
           <EntitySetMapping Name="Posts">
             <EntityTypeMapping TypeName="MyDatabaseModel.Post">
               <MappingFragment StoreEntitySet="Posts">
                 <ScalarProperty Name="PostID" ColumnName="PostID" />
                 <ScalarProperty Name="UserID" ColumnName="UserID" />
                 <ScalarProperty Name="Title" ColumnName="Title" />
-                <ScalarProperty Name="Image_Path" ColumnName="Image_Path" />
-                <ScalarProperty Name="Image_Type" ColumnName="Image_Type" />
-                <ScalarProperty Name="Image_Name" ColumnName="Image_Name" />
+                <ScalarProperty Name="ImageSize" ColumnName="ImageSize" />
+                <ScalarProperty Name="FileName" ColumnName="FileName" />
+                <ScalarProperty Name="ImageData" ColumnName="ImageData" />
                 <ScalarProperty Name="Content" ColumnName="Content" />
                 <ScalarProperty Name="Created" ColumnName="Created" />
               </MappingFragment>

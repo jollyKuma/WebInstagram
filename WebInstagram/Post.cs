@@ -11,18 +11,26 @@ namespace WebInstagram
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+    using System.Web;
+
     public partial class Post
     {
         public int PostID { get; set; }
         public int UserID { get; set; }
+
+        [Required(ErrorMessage = "Provide a title", AllowEmptyStrings = false)]
         public string Title { get; set; }
-        public string Image_Path { get; set; }
-        public string Image_Type { get; set; }
-        public string Image_Name { get; set; }
+
+        public int ImageSize { get; set; }
+        public string FileName { get; set; }
+        public byte[] ImageData { get; set; }
+        [Required(ErrorMessage = "Please select file")]
+        public HttpPostedFileBase File { get; set; }
+
         public string Content { get; set; }
         public string Created { get; set; }
-    
+
         public virtual User User { get; set; }
     }
 }
