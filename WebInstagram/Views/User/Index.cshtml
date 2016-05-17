@@ -3,13 +3,30 @@
 @{
     ViewBag.Title = "Index";
 }
+
 @if (Session["LogedUserFullname"] != null)
 {
   
 <header>
     @Html.Partial("_MainNav")
 </header>
+      WebImage photo = null;
+      var FileName = "";
+      var Image_Path = "";
+      string created = DateTime.Now.ToString();
 
+      if (IsPost)
+      {
+          photo = WebImage.GetImageFromRequest();
+          if (photo != null)
+          {
+              FileName = Guid.NewGuid().ToString() + "_" +
+              Path.GetFileName(photo.FileName);
+              Image_Path = @"uploads\" + FileName;
+
+              photo.Save(@"~\" + Image_Path);
+          }
+      } 
     <div class="container" style="margin-top: 52px;">
         <div class="center">
             <div class="form_wrapper">
@@ -41,7 +58,7 @@
         </table>
         }
         <!-- //
-         
+     
           //  {
           //  @Html.AntiForgeryToken()
           //  @Html.ValidationSummary(true)

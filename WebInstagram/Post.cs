@@ -22,7 +22,7 @@ namespace WebInstagram
         [Required(ErrorMessage = "Provide a title", AllowEmptyStrings = false)]
         public string Title { get; set; }
 
-        public int ImageSize { get; set; }
+        public string Image_Path { get; set; }
         public string FileName { get; set; }
         public byte[] ImageData { get; set; }
         [Required(ErrorMessage = "Please select file")]
