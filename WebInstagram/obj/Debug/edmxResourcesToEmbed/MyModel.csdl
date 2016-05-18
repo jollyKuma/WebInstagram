@@ -7,8 +7,8 @@
     <Property Name="PostID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="UserID" Type="Int32" Nullable="false" />
     <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="ImageSize" Type="Int32" Nullable="false" />
-    <Property Name="FileName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Image_Path" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FileName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="ImageData" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
     <Property Name="Content" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="Created" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
@@ -37,7 +37,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <EntityContainer Name="MyDatabaseEntities1" annotation:LazyLoadingEnabled="true">
+  <EntityContainer Name="MyDatabaseEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Posts" EntityType="Self.Post" />
     <EntitySet Name="Users" EntityType="Self.User" />
     <AssociationSet Name="FK1" Association="Self.FK1">

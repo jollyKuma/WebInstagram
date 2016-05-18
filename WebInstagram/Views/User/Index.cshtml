@@ -3,94 +3,83 @@
 @{
     ViewBag.Title = "Index";
 }
-
+             }
 @if (Session["LogedUserFullname"] != null)
 {
-  
-<header>
-    @Html.Partial("_MainNav")
-</header>
-      WebImage photo = null;
-      var FileName = "";
-      var Image_Path = "";
-      string created = DateTime.Now.ToString();
+  string userID = Session["LogedUserID"].ToString();
 
-      if (IsPost)
-      {
-          photo = WebImage.GetImageFromRequest();
-          if (photo != null)
-          {
-              FileName = Guid.NewGuid().ToString() + "_" +
-              Path.GetFileName(photo.FileName);
-              Image_Path = @"uploads\" + FileName;
-
-              photo.Save(@"~\" + Image_Path);
-          }
-      } 
+    <header>
+        @Html.Partial("_MainNav")
+    </header>
     <div class="container" style="margin-top: 52px;">
         <div class="center">
+
             <div class="form_wrapper">
                 @using (Html.BeginForm("Upload", "Post", FormMethod.Post, new { enctype = "multipart/form-data" }))
                 {
+                    @Html.AntiForgeryToken()
                     @Html.ValidationSummary(true)
-    <div class="group">
-        <input class="inputMaterial" name="Title" type="text" style="width:40%" required>
-        <span class="highlight" style="width:40%"></span>
-        <span class="bar" style="width:40%"></span>
-        <label>Title</label>
-    </div>
-    <div class="group">
-        <textarea class="inputMaterial" id="content" name="Content" placeholder="Say Something..." style=" width:100%; " required></textarea>
-        <span class="highlight " style="width:100%"></span>
-        <span class="bar" style="width:100%"></span>
-     </div>
-        <table>
-            <tr>
-                <td>Select File : </td>
-                <td>
-                    @Html.TextBoxFor(Model => Model.File, new { type = "file" })
-                    @Html.ValidationMessage("CustomError")
-                </td>
-                <td>
-                    <input type="submit" value="Upload" />
-                </td>
-            </tr>
-        </table>
-        }
-        <!-- //
-     
-          //  {
-          //  @Html.AntiForgeryToken()
-          //  @Html.ValidationSummary(true)
-          //  var Created = DateTime.Now;
 
-                        <form action="" enctype="multipart/form-data" method="post" class="form-inline">
-                            <div class="group">
-                                <input class="inputMaterial" name="Title" type="text" style="width:40%" required>
-                                <span class="highlight" style="width:40%"></span>
-                                <span class="bar" style="width:40%"></span>
-                                <label>Title</label>
+                    var Created = DateTime.Now;
+
+                    <form action="" enctype="multipart/form-data" method="post" class="form-inline">
+                        <input name="UserID" type="text" value="@userID" hidden>
+                        <div class="group">
+                            <input class="inputMaterial" name="Title" type="text" style="width:40%" required>
+                            <span class="highlight" style="width:40%"></span>
+                            <span class="bar" style="width:40%"></span>
+                            <label>Title</label>
+                        </div>
+                        <div class="group">
+                            <textarea class="inputMaterial" id="content" name="Content" placeholder="Say Something..." style=" width:100%; " required></textarea>
+                            <span class="highlight " style="width:100%"></span>
+                            <span class="bar" style="width:100%"></span>
+                            <input type="file" name="File" id="toProcess" class="file" style="margin-left:0px">
+                            @Html.ValidationMessage("CustomError")
+                            <input type="submit" name="name" value="Post " class="btns pull-right" style="width: 70px;margin-right:10px" />
+                        </div>
+                    </form>
+                }
+            </div>
+    
+            <br>
+            <div class="row posts">
+                <div class="col-lg-2">
+                </div>
+                <div class="col-lg-8">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <a href="#" type='button' class='btn btn-danger pull-right'>Delete</a>
+                            <a href="#" type='button' class='btn btn-default pull-right'>Edit</a>
+
+                            <small id="time_posted"> <i>posted by</i> : user@gmail.com</small>
+
+                            <div class="row">
+                                <div class="col-xs-12 col-md-12">
+                                    <a href="#" class="thumbnail"><img src="" alt="image" /></a>
+                                </div>
                             </div>
-                            <div class="group">
-                                <textarea class="inputMaterial" id="content" name="Content" placeholder="Say Something..." style=" width:100%; " required></textarea>
-                                <span class="highlight " style="width:100%"></span>
-                                <span class="bar" style="width:100%"></span>
-                                <input type="file" name="File" id="toProcess" class="file" style="margin-left:0px">
-                                @Html.ValidationMessage("CustomError")
-                                <input type="submit" name="name" value="Post " class="btns pull-right" style="width: 70px;margin-right:10px" />
-                            </div>
-                        </form>
-        }-->
+
+                            <hr>
+                            <p>postContent</p>
+                            <br>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                </div>
+            </div>
+            
+          
+        </div>
     </div>
-        </div>
-        </div>
-            <h1 style="margin-top: 52px;">Welcome @Session["LogedUserFullname"].ToString()</h1>
 }
-<script type="text/javascript">
-    function refresh() {
-        console.log("refresh");
-        setTimeout(function () {
-            location.reload()
-        }, 100);
-    }
-</script>
+                                    <script type="text/javascript">
+                                        function refresh() {
+                                            console.log("refresh");
+                                            setTimeout(function () {
+                                                location.reload()
+                                            }, 100);
+                                        }
+                                    </script>

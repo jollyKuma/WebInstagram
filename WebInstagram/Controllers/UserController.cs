@@ -21,7 +21,7 @@ namespace WebInstagram.Controllers
         {
             if (ModelState.IsValid)
             {
-                using (MyDatabaseEntities1 dc = new MyDatabaseEntities1())
+                using (MyDatabaseEntities dc = new MyDatabaseEntities())
                 {
                     dc.Users.Add(U);
                     dc.SaveChanges();
@@ -47,7 +47,7 @@ namespace WebInstagram.Controllers
             //{
             Debug.WriteLine("---------------------My model state");
 
-            using (MyDatabaseEntities1 dc = new MyDatabaseEntities1())
+            using (MyDatabaseEntities dc = new MyDatabaseEntities())
             {
                 Debug.WriteLine("---------------------Inside database entities");
 
@@ -55,10 +55,11 @@ namespace WebInstagram.Controllers
                 Debug.WriteLine("---------------------Condition");
                 if (v != null)
                 {
-
+                    
                     Session["LogedUserID"] = v.UserID.ToString();
                     Session["LogedUserFullname"] = v.Fullname.ToString();
-
+                    Session["LogedUserEmail"] = v.EmailID.ToString();
+                    Debug.WriteLine(Session["LogedUserID"]);
                     return RedirectToAction("Index");
                 }
             }

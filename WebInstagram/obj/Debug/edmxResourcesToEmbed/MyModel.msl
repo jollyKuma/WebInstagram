@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="MyDatabaseModelStoreContainer" CdmEntityContainer="MyDatabaseEntities1">
+  <EntityContainerMapping StorageEntityContainer="MyDatabaseModelStoreContainer" CdmEntityContainer="MyDatabaseEntities">
     <EntitySetMapping Name="Posts">
       <EntityTypeMapping TypeName="MyDatabaseModel.Post">
         <MappingFragment StoreEntitySet="Posts">
           <ScalarProperty Name="PostID" ColumnName="PostID" />
           <ScalarProperty Name="UserID" ColumnName="UserID" />
           <ScalarProperty Name="Title" ColumnName="Title" />
-          <ScalarProperty Name="ImageSize" ColumnName="ImageSize" />
+          <ScalarProperty Name="Image_Path" ColumnName="Image_Path" />
           <ScalarProperty Name="FileName" ColumnName="FileName" />
           <ScalarProperty Name="ImageData" ColumnName="ImageData" />
           <ScalarProperty Name="Content" ColumnName="Content" />

@@ -7,8 +7,8 @@
     <Property Name="PostID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="UserID" Type="int" Nullable="false" />
     <Property Name="Title" Type="varchar" MaxLength="50" Nullable="false" />
-    <Property Name="ImageSize" Type="int" Nullable="false" />
-    <Property Name="FileName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Image_Path" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="FileName" Type="varchar" MaxLength="255" Nullable="false" />
     <Property Name="ImageData" Type="varbinary(max)" Nullable="false" />
     <Property Name="Content" Type="varchar" MaxLength="255" Nullable="false" />
     <Property Name="Created" Type="varchar" MaxLength="255" Nullable="false" />

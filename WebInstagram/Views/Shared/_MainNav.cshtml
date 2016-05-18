@@ -27,7 +27,7 @@
 
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="#" style="color:#FFFCE6"> <i class="fa fa-user"></i>@Session["LogedUserFullname"].ToString()</a>
+                    <a href="@(Url.Action("Gallery", "Post"))" style=" color:#fffce6"> <i class="fa fa-user"></i>@Session["LogedUserFullname"].ToString()</a>
                 </li>
                 <li>
                     <a href="@(Url.Action("Logout", "User"))" onclick="refresh()"><strong><i class="fa fa-sign-out " style="color:#FFFCE6;font-size: 14px;"></i></strong></a></li>

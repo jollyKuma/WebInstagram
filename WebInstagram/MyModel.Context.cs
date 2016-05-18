@@ -13,10 +13,10 @@ namespace WebInstagram
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class MyDatabaseEntities1 : DbContext
+    public partial class MyDatabaseEntities : DbContext
     {
-        public MyDatabaseEntities1()
-            : base("name=MyDatabaseEntities1")
+        public MyDatabaseEntities()
+            : base("name=MyDatabaseEntities")
         {
         }
     

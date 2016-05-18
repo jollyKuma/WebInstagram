@@ -25,8 +25,8 @@ namespace WebInstagram
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(//"~/Content/site.css",
-                        //"~/Content/fixed-navigation-bar.css",
-                        // "~/Content/base.css",
+                //"~/Content/fixed-navigation-bar.css",
+                // "~/Content/base.css",
                         "~/Content/fonts.css",
                         "~/Content/ionic.css",
                         "~/Content/style.css",

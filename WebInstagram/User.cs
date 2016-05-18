@@ -13,13 +13,14 @@ namespace WebInstagram
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
     using System.Web.Mvc;
-
+    
     public partial class User
     {
         public User()
         {
             this.Posts = new HashSet<Post>();
         }
+
         public int UserID { get; set; }
         [Required(ErrorMessage = "Please provide a username", AllowEmptyStrings = false)]
         public string Username { get; set; }
