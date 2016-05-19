@@ -1,4 +1,4 @@
-﻿@model WebInstagram.Post
+﻿@model IEnumerable<WebInstagram.Models.UserPost>
 
 @{
     ViewBag.Title = "Index";
@@ -70,11 +70,13 @@
                 <div class="col-lg-2">
                 </div>
             </div>
-            
+         
           
+
         </div>
     </div>
 }
+
                                     <script type="text/javascript">
                                         function refresh() {
                                             console.log("refresh");

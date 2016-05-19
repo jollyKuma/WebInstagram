@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Dynamic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -73,8 +74,13 @@ namespace WebInstagram.Controllers
 
             if (Session["LogedUserID"] == null)
             {
+                
                 return RedirectToAction("Login");
             }
+           
+            dynamic mymodel = new ExpandoObject();
+            
+            
             return View();
         }
         public ActionResult Logout()

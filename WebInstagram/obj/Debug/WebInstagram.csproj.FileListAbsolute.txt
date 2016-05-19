@@ -163,6 +163,5 @@ C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\ko\System.Spatial.reso
 C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\ru\System.Spatial.resources.dll
 C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\zh-Hans\System.Spatial.resources.dll
 C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\bin\zh-Hant\System.Spatial.resources.dll
-C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\obj\Debug\WebInstagram.csprojResolveAssemblyReference.cache
 C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\obj\Debug\WebInstagram.dll
 C:\Users\Chael\Source\Repos\WebInstagram\WebInstagram\obj\Debug\WebInstagram.pdb
